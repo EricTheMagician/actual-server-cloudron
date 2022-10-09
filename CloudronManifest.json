@@ -1,44 +1,18 @@
 {
     "id": "org.fireflyiii.cloudronapp",
-    "title": "Firefly III",
-    "author": "Firefly III Authors",
-    "description": "file://DESCRIPTION.md",
-    "changelog": "file://CHANGELOG",
+    "title": "Actual Budget",
+    "author": "Acutal Authors",
     "tagline": "A personal finances manager",
-    "version": "3.1.6",
-    "upstreamVersion": "5.7.12",
-    "healthCheckPath": "/health",
-    "httpPort": 8000,
+    "version": "0.0.1",
+    "upstreamVersion": "1.0.3",
+    "httpPort": 5006,
     "addons": {
-      "localstorage": {},
-      "postgresql": {},
-      "sendmail": {},
-      "proxyAuth": {
-          "supportsBearerAuth": true
-      },
-      "scheduler": {
-        "update_feeds": {
-            "schedule": "0 3 * * *",
-            "command": "echo '==> cron' && sudo -u www-data -E php /app/code/artisan firefly-iii:cron"
-        }
-      }
+      "localstorage": {}
     },
-    "optionalSso": true,
     "manifestVersion": 2,
-    "website": "https://firefly-iii.org/",
-    "contactEmail": "support@cloudron.io",
-    "icon": "file://logo.png",
     "tags": [
-      "firefly", "firefly-iii", "finance", "accounting", "money", "invoices", "mint", "gnucash"
+      "actual", "finance", "accounting", "money", "invoices", "mint", "gnucash"
     ],
-    "mediaLinks": [
-      "https://screenshots.cloudron.io/org.firefly-iii.cloudronapp/account.png",
-      "https://screenshots.cloudron.io/org.firefly-iii.cloudronapp/index.png",
-      "https://screenshots.cloudron.io/org.firefly-iii.cloudronapp/budgets.png"
-    ],
-    "minBoxVersion": "7.3.0",
-    "forumUrl": "https://forum.cloudron.io/category/48/firefly-iii",
-    "documentationUrl": "https://docs.cloudron.io/apps/firefly-iii",
-    "postInstallMessage": "file://POSTINSTALL.md"
+    "minBoxVersion": "7.3.0"
   }
   
