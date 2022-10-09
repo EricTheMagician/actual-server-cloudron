@@ -1,9 +1,13 @@
 {
-    "id": "org.fireflyiii.cloudronapp",
+    "id": "com.actualbudget",
     "title": "Actual Budget",
     "author": "Acutal Authors",
     "tagline": "A personal finances manager",
-    "version": "0.0.1",
+    "description": 
+      "Actual is a super fast privacy-focused app for managing your finances. You own your data, and we will sync it across all devices with optional end-to-end encryption.",
+    "documentationUrl": "https://actualbudget.com/docs/",
+    "healthCheckPath": "/",
+    "version": "0.0.2",
     "upstreamVersion": "1.0.3",
     "httpPort": 5006,
     "addons": {
@@ -14,5 +18,5 @@
       "actual", "finance", "accounting", "money", "invoices", "mint", "gnucash"
     ],
     "minBoxVersion": "7.3.0"
-  }
+}
   
