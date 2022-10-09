@@ -5,8 +5,7 @@ RUN mkdir -p /app/code /app/data && \
 WORKDIR /app/code
 
 ARG VERSION=1.0.3
-ENV ACTUAL_USER_FILES=/app/data  \
-    NODE_ENV=production
+ENV NODE_ENV=production
 
 
 # install actual-server
